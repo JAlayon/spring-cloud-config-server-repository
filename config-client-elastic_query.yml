@@ -9,6 +9,12 @@ server:
 elastic-query-config:
   text-field: text
 
+elastic-config:
+  index-name: twitter-index
+  connection-url: http://localhost:9200
+  connect-timeout-ms: 5000
+  socket-timeout-ms: 30000
+
 user-config:
   username: test
   password: '{cipher}c902cdf9be8ecb1bf0c6e729e255bc1847afe2381b5a8baef355eb833dd812fe'
